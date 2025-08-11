@@ -2,7 +2,7 @@ let d;
 let colorDot = 0;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); 
+  createCanvas(windowWidth, windowHeight).position(0,0).style('z-index','-1');
   background(120, 68, 187);
 }
 
