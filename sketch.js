@@ -3,7 +3,7 @@ let colorDot = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(120, 68, 255);
+  background(120, 68, 187);
 }
 
 function draw() {
