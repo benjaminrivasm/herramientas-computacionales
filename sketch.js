@@ -15,7 +15,7 @@ function draw() {
   noStroke();
   ellipse(mouseX, mouseY, d, d);
   
-      colorDot += 1;
+  colorDot += 1;
   if (colorDot > 360) {
     colorDot = 0;
   }
