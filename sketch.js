@@ -12,6 +12,7 @@ function draw() {
   colorMode(HSB);
   
   fill(colorDot, 100, 100);
+  noStroke();
   ellipse(mouseX, mouseY, d, d);
   
       colorDot += 1;
