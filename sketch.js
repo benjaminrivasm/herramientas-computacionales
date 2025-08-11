@@ -20,3 +20,9 @@ function draw() {
     colorDot = 0;
   }
 }
+
+function keyPressed() {
+  if (key === 'p') {
+    save('dibujo.jpg');
+  }
+}
