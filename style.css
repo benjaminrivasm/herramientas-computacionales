@@ -22,16 +22,18 @@ svg{
 }
 ol{
   margin: 0;
-  padding: 0;
+  padding: 0 150px;
 }
 li{
   list-style: none;
+  line-height: 3rem;
   border-bottom: 1px solid silver;
-  padding: 10px;
+  display: flex;
+  padding: 0.2rem 0;
 }
 li img{
-  border-radius: 30%;
-  border: 1px black;
-  width: 1;
-  height: 1;
+  border-radius: 25% 40%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
 }
