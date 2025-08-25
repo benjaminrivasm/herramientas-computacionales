@@ -7,7 +7,7 @@ canvas {
   display: block;
   text-align: center;
 }
-div.texto{ 
+div{ 
   margin: 2rem auto;
   padding: 2rem;
   width: min(90vw, 800px);
