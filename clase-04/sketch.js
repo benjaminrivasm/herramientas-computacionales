@@ -263,7 +263,7 @@ function setup() {
     });
     
     trabajos.forEach((x)=>{
-        document.querySelector("#portafolio").innerHTML += `<div> <img height="300" src="${x.photo}"> <p>${x.title}</p> <p>${x.description}</p> </div>`;
+        document.querySelector("#portafolio").innerHTML += `<div> <img src="${x.photo}"> <p>${x.title}</p> <p>${x.description}</p> </div>`;
     });
          //Ahora vuelvo al p5.js
     noStroke();
