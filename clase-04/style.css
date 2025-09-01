@@ -51,6 +51,7 @@ div#portafolio{
 
 div#portafolio div img {
     padding: 25px 25px 0;
+    width: 20%;
 }
 
 @media (orientation: portrait) {
