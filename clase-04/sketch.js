@@ -213,17 +213,17 @@ const trabajos = [
     {
         photo: "images/02.webp",
         title: "Trapalanda",
-        description: "Trabajo final Proyecto II</br>Prof. René Perea",
+        description: "Trabajo Final Proyecto II</br>Prof. René Perea",
     },
     {
         photo: "images/03.webp",
         title: "Microorganismo Marino",
-        description: "Trabajo final PyP II</br>Prof. Astrid Osorio",
+        description: "Trabajo Final PyP II</br>Prof. Astrid Osorio",
     },
     {
         photo: "images/04.webp",
         title: "Chaqueta-Abrigo Asimétrica",
-        description: "Trabajo final Proyecto V</br>Prof. Pablo Nuñez",
+        description: "Trabajo Final Proyecto V</br>Prof. Pablo Nuñez",
     },
 ];
 
