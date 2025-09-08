@@ -2,46 +2,44 @@ const trabajos = [
     {
         photo: "img/01.webp",
         title: "Chaqueta-Abrigo Asimétrica",
-        description: "Trabajo Final Proyecto V</br>Prof. Pablo Nuñez",
+        description: "Trabajo Final Proyecto V</br>Profesor Pablo Nuñez",
     },
     {
         photo: "img/02.webp",
         title: "Trapalanda",
-        description: "Trabajo Final Proyecto II</br>Prof. René Perea",
+        description: "Trabajo Final Proyecto II</br>Profesor René Perea",
     },
     {
         photo: "img/03.webp",
         title: "Microorganismo Marino",
-        description: "Trabajo Final Procesos y Prototipos II</br>Prof. Astrid Osorio",
+        description: "Trabajo Final Procesos y Prototipos II</br>Profesora Astrid Osorio",
     },
     {
         photo: "img/04.webp",
         title: "Espacio Unipersonal",
-        description: "Trabajo Ergonomía y Factores Humanos</br>Prof. Claudio Ribalta",
+        description: "Trabajo Ergonomía y Factores Humanos</br>Profesor Claudio Ribalta",
     },
     {
         photo: "img/05.webp",
         title: "Atypical Garden",
-        description: "Trabajo Final Proyecto III</br>Prof. Christian Basáez",
+        description: "Trabajo Final Proyecto III</br>Profesor Christian Basáez",
     },
     {
         photo: "img/06.webp",
         title: "Rediseño Portada",
-        description: "Trabajo Proyecto I</br>Prof. René Perea",
+        description: "Trabajo Proyecto I</br>Profesor René Perea",
     },
     {
         photo: "img/07.webp",
         title: "Reinterpretación Vectorial",
-        description: "Trabajo Configuración Visual II</br>Prof. Juan Calderón",
+        description: "Trabajo Configuración Visual II</br>Profesor Juan Calderón",
     },
     {
         photo: "img/08.webp",
         title: "Pictograma Quiditch",
-        description: "Trabajo Configuración Visual II</br>Prof. Juan Calderón",
+        description: "Trabajo Configuración Visual II</br>Profesor Juan Calderón",
     },
 ];
-
-
 
 
 const datos = [
