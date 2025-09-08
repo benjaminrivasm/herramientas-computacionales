@@ -37,6 +37,7 @@ div.container {
     margin: 5% auto;
     background:white;
     clear:both;
+    border-radius: 15px;
 }
 
 
@@ -46,13 +47,13 @@ h1,h2,h3,h4{
 
 h1 {
     text-transform: uppercase;
-    font-size: calc(2.5rem + 2vw);
+    font-size: calc(2.3rem + 2vw);
     text-wrap: balance;
     line-height: 1;
 }
 
 h1 a{
-    font-size: 130%;
+    font-size: 127%;
     text-decoration: none;
 }
 
@@ -83,6 +84,7 @@ header p{
 canvas {
     display: block;
     text-align: center;
+    border-radius: 15px;
 }
 
 
@@ -182,6 +184,7 @@ div#portafolio div {
 
 div#portafolio div img{
     width:100%;
+    border-radius: 15px;
 }
 
 hr{
