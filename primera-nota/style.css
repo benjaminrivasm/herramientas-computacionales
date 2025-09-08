@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fondo:#f0f0f0;
+    --figura:#777777;
+    --rojo-principal: #D90404;
+    --rojo-secundario: #8C0303;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--figura);
+    background: var(--fondo);
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+a{
+    color:var(--rojo-principal);  
+    transition: color ease .1s;  
+}
+
+a:hover{
+    color:var(--rojo-secundario);
+    transition: color ease .1s;
+}
+
+
+div.container {
+    text-align: left;
+    width: min(90vw, 900px);
+    border:.6rem solid var(--rojo-principal);
+    margin: 5% auto;
+    background:white;
+    clear:both;
+}
+
+
+h1,h2,h3,h4{
+    font-family: "Saira Condensed", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: calc(2.5rem + 2vw);
+    text-wrap: balance;
+    line-height: 1;
+}
+
+h1 a{
+    font-size: 130%;
+    text-decoration: none;
+}
+
+h2{
+    font-size: calc(1rem + 1.5vw);
+    line-height: 1.5;
+    text-align: center;
+    padding-top:.5rem; 
+    color: var(--rojo-principal);
+}
+
+h3{
+    font-size: calc(1rem + .5vw);
+    line-height: 1.5;
+    text-align: left;
+    padding-top:.5rem;    
+}
+
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+
+header p{
+    margin:0.5rem 1.25rem 0.5rem 0;
+}
+
+canvas {
+    display: block;
+    text-align: center;
+}
+
+
+div#ucursito {
+    width: 30%;
+    float: left;
+}
+
+div#about {
+    width: calc(70% - 2rem);
+    padding:1rem;
+    float: left;
+}
+
+
+@media (orientation: portrait) {
+    div#ucursito,
+    div#about {
+        width: 96%;
+        margin: 2%;
+        clear:both;
+    }
+}
+
+div#portafolio{
+        width: 96%;
+        margin: 2%;
+        clear:both;
+    }
+
+aside{
+    clear:both;
+    padding:1rem;
+    border-top:.6rem solid var(--rojo-principal);
+    border-bottom:.6rem solid var(--rojo-principal);
+}
+
+aside p{
+    clear:both;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+aside div.estudiante {
+    padding: 0.25rem;
+    width: calc((100% / 14) - 0.5rem);
+    float: left;
+}
+
+
+@media (orientation: portrait) {
+
+   aside div.estudiante {
+        padding: 0.25rem;
+        width: calc((100% / 7) - 0.5rem);
+        float: left;
+    }
+
+}
+
+aside div.estudiante img {
+    transition: all ease 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50%;
+    filter: blur(1px) grayscale(1);
+}
+
+aside div.estudiante img:hover {
+    transition: all ease 0.25s;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+aside div.tope {
+    clear:both;
+    width:100%;
+    background:pink;
+    content:"";
+}
+
+/* agregar dos cositas */
+
+div#portafolio div {
+    padding: 0.5rem;
+    width: calc(50% - 1rem);
+    float:left;
+}
+
+@media (orientation: portrait) {
+    div#portafolio div {
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        width: calc(100% - 1rem);
+        clear:both;       
+    }
+}
+
+div#portafolio div img{
+    width:100%;
+}
+
+hr{
+    width:100%;
+    clear: both;
+    border:0;
+}
+
+footer{
+    text-align: center;
+}
+
+footer object{
+    width:25%;
+    margin:5rem auto 1rem auto;
+}
+
+footer p{
+    padding:0 0 2rem 0;
+    font-size:90%;
+}
